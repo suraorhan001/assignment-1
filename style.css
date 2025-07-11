@@ -18,6 +18,8 @@ body{
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
 header{
@@ -95,7 +97,7 @@ nav h1{
     
     justify-content: space-between;
     margin: 60px auto;
-    padding: 20px;
+    padding: 30px 45px;
    }
    .about-1 img{
     border-radius: 48px;
@@ -103,7 +105,7 @@ nav h1{
    .box{
     height: 250px;
     width: 350px;
-    padding: 20px;
+    padding: 40px;
    }
    .box h1{
     font-size: 48px;
@@ -148,7 +150,9 @@ nav h1{
 }
 .main-box{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 170px;
+    padding-left: 12%;
 }
 .main-box h1{
     font-size: 80px;
@@ -293,4 +297,43 @@ nav h1{
     font-weight: 300;
     color: #252432;
     font-size: 16;
+  }
+
+  /* =====form end=== */
+
+
+  footer{
+    height: 350px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  footer h1{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    
+    color:rgb(90, 25, 233);
+  }
+  footer p{
+    width: 450px;
+    font-size: 16px;
+    color: rgb(87, 86, 86);
+    
+  }
+  footer ul{
+    display: flex;
+    gap: 30px;
+   
+  }
+  footer ul li{
+    margin-top: 30px;
+  }
+  footer ul li a{
+    color: grey;
+    font-size: 13px;
+    
   }
