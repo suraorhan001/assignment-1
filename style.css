@@ -208,3 +208,46 @@ nav h1{
         display: flex;
         gap: 20px;
     }
+
+    /* ======review end==== */
+    .more{
+        height:550px ;
+        width: 1050px;
+        display: flex;
+        border-radius: 10px;
+        background-color: white;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 50px;
+        margin: 50px auto;
+    }
+    .more img{
+        border-radius: 40px;
+    }
+    .more h1{
+        color: #252432;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .more p{
+        font-size: 12px;
+        color: grey;
+        opacity: 0.6;
+    }
+    .btn-4{
+    background-color:#4E47FF ;
+    width: 200px;
+    height: 48px;
+    color: aliceblue;
+    font-size: 16px;
+    border-radius:10px ;
+    border: none;
+}
+.btn-4:hover{
+  
+  background-color:purple;
+  color:white ;
+  font-size: 20px;
+  transition: 0.9;
+  box-shadow: 2px 3px 5px blue ;}
