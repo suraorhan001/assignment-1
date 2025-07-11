@@ -251,3 +251,46 @@ nav h1{
   font-size: 20px;
   transition: 0.9;
   box-shadow: 2px 3px 5px blue ;}
+
+
+  /* ====optional and== */
+  .form{
+    width: 900px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    padding: 40px 50px;
+    margin: 30px auto;
+  }
+  .form h1{
+    font-size: 70px;
+    font-weight: 600;
+  }
+  .btn-5{
+    background-color:#4E47FF ;
+    width: 306px;
+    height: 48px;
+    color: aliceblue;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius:10px ;
+    border: none;
+}
+.btn-5:hover{
+  
+  background-color:purple;
+  color:white ;
+  font-size: 20px;
+  transition: 0.9;
+  box-shadow: 2px 3px 5px blue ;}
+  
+
+  input{
+    margin-bottom: 10px;
+  }
+  label{
+    margin-top: 10px;
+    font-weight: 300;
+    color: #252432;
+    font-size: 16;
+  }
